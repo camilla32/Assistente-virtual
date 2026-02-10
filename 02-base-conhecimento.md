@@ -28,6 +28,13 @@ para teinamento e desenvolvimento de IA/ML. Além de dados de transações de or
 
 Carregando via codigo em python ou diretamente nos prompts usando o atalho CTRL + C e CTRL + V.
 
+```
+import pandas as pd
+
+transacao_financeira = pd.read_csv('./transacao_financeira_sample_set_1.csv')
+
+transacao_orcamentaria = pd.read_csv('./transacao_orcamentaria_pessoal.csv')
+```
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
